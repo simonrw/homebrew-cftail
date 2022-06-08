@@ -1,9 +1,9 @@
 class Cftail < Formula
   desc "Tail CloudFormation deploys"
   homepage "https://gitlab.com/srwalker101/cftail"
-  url "https://github.com/mindriot101/cftail/archive/refs/tags/v0.6.1.zip"
-  version "0.6.1"
-  sha256 "e8ea1f182328201d5b2c6dec848a665199cf991aaefebd5c0a7e61f93614bbea"
+  url "https://github.com/mindriot101/cftail/archive/refs/tags/v0.7.0.zip"
+  version "0.7.0"
+  sha256 "03c1f9204e99987e95a565a4a5e8c9e69adfa3e7d2bfd4ad506e0e3e02143e9c"
   license "Apache-2.0"
 
   depends_on "rust" => :build
