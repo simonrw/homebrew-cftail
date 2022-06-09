@@ -13,6 +13,6 @@ class Cftail < Formula
   end
 
   test do
-    system "#{bin}/program", "-h"
+    system "#{bin}/cftail", "-h"
   end
 end
