@@ -1,4 +1,10 @@
 name: brew pr-pull
+permissions:
+  actions: write
+  contents: write
+  issues: write
+  packages: write
+  pull-requests: write
 on:
   pull_request_target:
     types:
@@ -7,7 +13,6 @@ jobs:
   pr-pull:
     if: contains(github.event.pull_request.labels.*.name, 'pr-pull')
     runs-on: ubuntu-latest
-    permissions: write-all
     steps:
       - name: Set up Homebrew
         uses: Homebrew/actions/setup-homebrew@master
